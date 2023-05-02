@@ -1,7 +1,7 @@
-Algoritmo "Exemplo de Matriz"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "ExercÃ­cio 1"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Carlos
-// Descrição   :Crie um algoritmo que receba três notas de 2 semestres e informe a média.
+// DescriÃ§Ã£o   :Crie um algoritmo que receba trÃªs notas de 2 semestres e informe a mÃ©dia.
 // Autor(a)    : Gisele Leite de Deus
 // Data atual  : 02/05/2023
 
@@ -14,44 +14,44 @@ Var
 
 Inicio
 
-   //Impressão para o usuário
-   escreval("Seja Bem-Vind@ a verificação de notas do Colégio de Doramal")
+   //ImpressÃ£o para o usuÃ¡rio
+   escreval("Seja Bem-Vind@ a verificaÃ§Ã£o de notas do ColÃ©gio de Doramal")
    escreval("Preencha com seus dados!")
    escreval(" ")
 
-   //Um laço para os semestres
+   //Um laÃ§o para os semestres
    para i de 1 ate 2 faca
 
-      //Um laço para as notas
+      //Um laÃ§o para as notas
       para j de 1 ate 3 faca
-         escreval("Digite a ", j, "ª nota da avaliação do ", i, "° semestre: ")
+         escreval("Digite a ", j, "Âª nota da avaliaÃ§Ã£o do ", i, "Â° semestre: ")
          leia(notas[i,j])
          //Calcular a soma
          soma<- soma+notas[i,j]
       fimpara
-      //Calcular a média
+      //Calcular a mÃ©dia
       media[i]<- soma/j
       soma<- 0
    fimpara
    limpatela
 
-   //laço para os semestres.
+   //laÃ§o para os semestres.
    para i de 1 ate 2 faca
-      escreval(i, "º semestre: ")
+      escreval(i, "Âº semestre: ")
 
-      //laço para as notas.
+      //laÃ§o para as notas.
       para j de 1 ate 3 faca
-         escreval(j, "ª nota: ", notas[i,j])
+         escreval(j, "Âª nota: ", notas[i,j])
       fimpara
       escreval(" ")
-      escreval("Média: ", media[i]:6:1)
+      escreval("MÃ©dia: ", media[i]:6:1)
       escreval(" ")
    fimpara
 
 
 
 
-   //Impressão final para o usuário
+   //ImpressÃ£o final para o usuÃ¡rio
    escreval(" ")
    escreval("Obrigada por Participar!")
 
