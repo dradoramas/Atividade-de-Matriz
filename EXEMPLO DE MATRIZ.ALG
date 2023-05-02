@@ -1,7 +1,7 @@
 Algoritmo "Exemplo de Matriz"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Carlos
-// Descrição   :
+// DescriÃ§Ã£o   : Crie um algoritmo que receba o trÃªs notas de 2 semestres.
 // Autor(a)    : Gisele Leite de Deus
 // Data atual  : 02/05/2023
 
@@ -12,34 +12,34 @@ Var
 
 Inicio
 
-   //Impressão para o usuário
-   escreval("Seja Bem-Vind@ a verificação de notas do Colégio de Doramal")
+   //ImpressÃ£o para o usuÃ¡rio
+   escreval("Seja Bem-Vind@ a verificaÃ§Ã£o de notas do ColÃ©gio de Doramal")
    escreval("Preencha com seus dados!")
    escreval(" ")
 
-   //Um laço para os semestres
+   //Um laÃ§o para os semestres
    para i de 1 ate 2 faca
 
-      //Um laço para as notas
+      //Um laÃ§o para as notas
       para j de 1 ate 3 faca
-         escreval("Digite a ", j, "ª nota da avaliação do ", i, "° semestre: ")
+         escreval("Digite a ", j, "Âª nota da avaliaÃ§Ã£o do ", i, "Â° semestre: ")
          leia(notas[i,j])
       fimpara
    fimpara
    limpatela
 
-   //laço para os semestres.
+   //laÃ§o para os semestres.
    para i de 1 ate 2 faca
-      escreval(i, "º semestre: ")
+      escreval(i, "Âº semestre: ")
 
-      //laço para as notas.
+      //laÃ§o para as notas.
       para j de 1 ate 3 faca
-         escreval(j, "ª nota: ", notas[i,j])
+         escreval(j, "Âª nota: ", notas[i,j])
       fimpara
       escreval(" ")
    fimpara
 
-   //Impressão final para o usuário
+   //ImpressÃ£o final para o usuÃ¡rio
    escreval(" ")
    escreval("Obrigada por Participar!")
 
