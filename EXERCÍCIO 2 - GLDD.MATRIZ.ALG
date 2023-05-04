@@ -14,14 +14,14 @@ Var
 Inicio
 
    //Impressão para o usuário
-   escreval("Seja Bem-Vind@ a verificação de notas do Colégio de Doramal")
+   escreval("Seja Bem-Vind@ a verificação de notas do boletim do Colégio de Doramal")
    escreval("Preencha com seus dados!")
    escreval(" ")
 
-   //Um laço para os semestres
+   //Laço de repetição "para...faça" para os semestres
    para i de 1 ate 3 faca
 
-      //Um laço para as notas
+      //Laço de repetição "para...faça" para as notas
       para j de 1 ate 2 faca
          escreval("Digite a ", j, "ª nota da ", i, "° matéria: ")
          leia(notas[i,j])
@@ -34,11 +34,11 @@ Inicio
    fimpara
    limpatela
 
-   //laço para os semestres.
+   //laço de repetição "para...faça" para os semestres.
    para i de 1 ate 3 faca
       escreval(i, "º Matéria: ")
 
-      //laço para as notas.
+      //laço de repetição "para...faça" para as notas.
       para j de 1 ate 2 faca
          escreval(j, "ª nota: ", notas[i,j])
       fimpara
