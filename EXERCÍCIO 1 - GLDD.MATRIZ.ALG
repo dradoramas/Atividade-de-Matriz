@@ -1,7 +1,7 @@
 Algoritmo "Exercício 1"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Carlos
-// Descrição   :Crie um algoritmo que receba três notas de 2 semestres e informe a média.
+// Descrição   : Crie um algoritmo que receba três notas de 2 semestres e informe a média.
 // Autor(a)    : Gisele Leite de Deus
 // Data atual  : 02/05/2023
 
@@ -47,9 +47,6 @@ Inicio
       escreval("Média: ", media[i]:6:1)
       escreval(" ")
    fimpara
-
-
-
 
    //Impressão final para o usuário
    escreval(" ")
