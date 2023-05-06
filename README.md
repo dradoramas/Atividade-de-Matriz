@@ -58,19 +58,21 @@ Atividade de Fixação para Matrizes feitas no VisualG:
 6. Crie um algoritmo que receba o nome de três disciplinas, receba três notas para cada disciplina e mostre a média ponderada de cada disciplina:
 
 - Exemplo: 
-- Nome da disciplina: Lógica de programação 
+
+Nome da disciplina: Lógica de programação 
 - 1º nota: 8,0 - peso 3 
 - 2º nota: 9,0 - peso 3 
 - 3º nota: 7,0 - peso 4 
 - Média: 7,9 
 
 
-- Exemplo de média ponderada:  
-- 2-8+3-10+2,5-4+2,5-6 
-- 2+3+2,5+2,5 
-- 16+30+10+15 
-- x = 71/10 
-- x = 7,1 
+- Exemplo de média ponderada:
+  
+2-8+3-10+2,5-4+2,5-6 
+2+3+2,5+2,5 
+16+30+10+15 
+x = 71/10 
+x = 7,1 
  
 7. Crie um algoritmo que receba os dados de duas pessoas: o nome; a idade; e, suas medidas: Altura e Peso:
 
