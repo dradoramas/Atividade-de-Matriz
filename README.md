@@ -10,6 +10,7 @@ Atividade de Fixação para Matrizes feitas no VisualG:
 - 2º nota: 9 
 - 3º nota: 8 
 
+
 - 2ª semestre: 
 - 1º nota: 8 
 - 2º nota: 7 
@@ -23,6 +24,7 @@ Atividade de Fixação para Matrizes feitas no VisualG:
 - 2º nota: 9 
 - 3º nota: 8 
 - Média: 8,0
+
 
 - 2ª semestre: 
 - 1º nota: 8 
@@ -60,6 +62,7 @@ Atividade de Fixação para Matrizes feitas no VisualG:
 - 2º nota: 9,0 - peso 3 
 - 3º nota: 7,0 - peso 4 
 - Média: 7,9 
+
 
 - Exemplo de média ponderada:  
 - 2-8+3-10+2,5-4+2,5-6 
