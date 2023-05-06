@@ -68,11 +68,11 @@ Nome da disciplina: Lógica de programação
 
 - Exemplo de média ponderada:
   
-2-8+3-10+2,5-4+2,5-6 
-2+3+2,5+2,5 
-16+30+10+15 
-x = 71/10 
-x = 7,1 
+- 2-8+3-10+2,5-4+2,5-6 
+- 2+3+2,5+2,5 
+- 16+30+10+15 
+- x = 71/10 
+- x = 7,1 
  
 7. Crie um algoritmo que receba os dados de duas pessoas: o nome; a idade; e, suas medidas: Altura e Peso:
 
