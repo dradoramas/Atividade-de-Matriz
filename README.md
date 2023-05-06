@@ -5,13 +5,12 @@ Atividade de Fixação para Matrizes feitas no VisualG:
 1. Crie um algoritmo que receba o três notas de 2 semestres e mostre: 
 
 - Exemplo: 
-- 1ª semestre: 
+ 1ª semestre: 
 - 1º nota: 7  
 - 2º nota: 9 
 - 3º nota: 8 
-
-
-- 2ª semestre: 
+- 
+ 2ª semestre: 
 - 1º nota: 8 
 - 2º nota: 7 
 - 3º nota: 3 
