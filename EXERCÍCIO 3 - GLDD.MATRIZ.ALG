@@ -1,7 +1,7 @@
 Algoritmo "Exercício 3"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Carlos
-// Descrição   : Crie um algoritmo que receba o nome de três disciplinas, receba duas notas para cada disciplina, mostre a média.
+// Descrição   : Crie um algoritmo que receba o nome de três disciplinas, receba duas notas para cada disciplina, mostre a média. (mostrei apenas o nome e a média) 
 // Autor(a)    : Gisele Leite de Deus
 // Data atual  : 03/05/2023
 Var
