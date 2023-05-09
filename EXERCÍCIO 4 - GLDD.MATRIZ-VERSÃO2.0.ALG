@@ -1,4 +1,4 @@
-Algoritmo "Exercício 2"
+Algoritmo "Exercício 4"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Carlos
 // Descrição   : Crie um algoritmo que receba o nome de tres disciplinas, receba duas notas de cada disciplinas, mostrando a média.
