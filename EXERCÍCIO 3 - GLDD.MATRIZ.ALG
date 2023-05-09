@@ -1,4 +1,4 @@
-Algoritmo "Exercício 2"
+Algoritmo "Exercício 3"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Carlos
 // Descrição   : Crie um algoritmo que receba o nome de três disciplinas, receba duas notas para cada disciplina, mostre a média.
@@ -37,18 +37,12 @@ Inicio
    //laço de repetição "para...faça" para os semestres.
    para i de 1 ate 3 faca
       escreval(i, "º Matéria: ")
+  fimpara
 
-      //laço de repetição "para...faça" para as notas.
-      para j de 1 ate 2 faca
-         escreval(j, "ª nota: ", notas[i,j])
-      fimpara
+   //Impressão final para o usuário
       escreval(" ")
       escreval("Média: ", media[i]:6:1)
       escreval(" ")
-   fimpara
-
-   //Impressão final para o usuário
-   escreval(" ")
    escreval("Obrigada por Participar!")
 
 Fimalgoritmo
