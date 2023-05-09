@@ -1,4 +1,4 @@
-Algoritmo "Exercício 1"
+Algoritmo "Exercício 2"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Carlos
 // Descrição   : Crie um algoritmo que receba três notas de 2 semestres e informe a média.
