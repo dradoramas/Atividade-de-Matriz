@@ -1,7 +1,7 @@
-Algoritmo "Exercício 2"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "ExercÃ­cio 2"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Carlos
-// Descrição   : Crie um algoritmo que receba o nome de tres disciplinas, receba duas notas de cada disciplinas.
+// DescriÃ§Ã£o   : Crie um algoritmo que receba o nome de tres disciplinas, receba duas notas de cada disciplinas, mostrando a mÃ©dia.
 // Autor(a)    : Gisele Leite de Deus
 // Data atual  : 03/05/2023
 Var
@@ -14,43 +14,43 @@ Var
 
 Inicio
 
-   //Impressão para o usuário
-   escreval("Seja Bem-Vind@ a verificação de notas do Colégio de Doramal")
+   //ImpressÃ£o para o usuÃ¡rio
+   escreval("Seja Bem-Vind@ a verificaÃ§Ã£o de notas do ColÃ©gio de Doramal")
    escreval("Preencha com seus dados!")
    escreval(" ")
 
-   //Laço de repetição "para...faca" para os semestres
+   //LaÃ§o de repetiÃ§Ã£o "para...faca" para os semestres
    para i de 1 ate 3 faca
-   escreval("Digite a sua matéria: ")
+   escreval("Digite a sua matÃ©ria: ")
    leia(materia[i])
    
-      //Laço de repetição "para...faca" para as notas
+      //LaÃ§o de repetiÃ§Ã£o "para...faca" para as notas
       para j de 1 ate 2 faca
-         escreval("Digite a ", j, "ª nota de ", materia[i], ":")
+         escreval("Digite a ", j, "Âª nota de ", materia[i], ":")
          leia(notas[i,j])
          limpatela
          //Calcular a soma
          soma<- soma+notas[i,j]
       fimpara
-      //Calcular a média
+      //Calcular a mÃ©dia
       media[i]<- soma/j
       soma<- 0
    fimpara
    limpatela
 
-   //Impressão com laço de repetição "para...faça" para os semestres.
+   //ImpressÃ£o com laÃ§o de repetiÃ§Ã£o "para...faÃ§a" para os semestres.
    para i de 1 ate 3 faca
       escreval(materia[i],":")
 
-      //Impressão com laço de repetição "para...faça" para as notas.
+      //ImpressÃ£o com laÃ§o de repetiÃ§Ã£o "para...faÃ§a" para as notas.
       para j de 1 ate 2 faca
-         escreval(j, "ª nota: ", notas[i,j])
+         escreval(j, "Âª nota: ", notas[i,j])
       fimpara
-      escreval("Média: ", media[i]:6:1)
+      escreval("MÃ©dia: ", media[i]:6:1)
       escreval("______________________ ")
    fimpara
 
-   //Impressão final para o usuário
+   //ImpressÃ£o final para o usuÃ¡rio
    escreval(" ")
    escreval("Obrigada por Participar!")
 
