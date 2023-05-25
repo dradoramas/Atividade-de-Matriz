@@ -1,7 +1,7 @@
-Algoritmo "Exercício 6"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "ExercÃ­cio 6"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Carlos
-// Descrição   : Crie um algoritmo que receba o nome de três disciplinas, receba três notas para cada disciplina e mostre a média ponderada de cada disciplina:
+// DescriÃ§Ã£o   : Crie um algoritmo que receba o nome de trÃªs disciplinas, receba trÃªs notas para cada disciplina e mostre a mÃ©dia ponderada de cada disciplina:
 // Autor(a)    : Gisele Leite de Deus
 // Data atual  : 04/05/2023
 
@@ -23,28 +23,28 @@ Inicio
    peso[2]<-3
    peso[3]<-4
 
-   //Impressão inicial para o usuário
+   //ImpressÃ£o inicial para o usuÃ¡rio
 
-   escreval("Seja Bem-Vind@ ao Colegial de Doramal, preencha com seus dados")
+   escreval("Seja Bem-Vind@ ao boletim do Colegial de Doramal, preencha com seus dados")
    escreval(" ")
 
-   //Laço de Repetição "para...faça" para receber indíce de vetor "nome" e "matéria"
+   //LaÃ§o de RepetiÃ§Ã£o "para...faÃ§a" para receber indÃ­ce de vetor "nome" e "matÃ©ria"
 
    para i de 1 ate 3 faca
       escreval("Digite seu nome: ")
       leia (nome[i])
 
-      escreval("Digite a sua matéria: ")
+      escreval("Digite a sua matÃ©ria: ")
       leia(materia[i])
 
       limpatela
 
-      //Laço de Repetição "para...faça" para receber indíce de vetor "notas"
+      //LaÃ§o de RepetiÃ§Ã£o "para...faÃ§a" para receber indÃ­ce de vetor "notas"
       para j de 1 ate 3 faca
-         escreval("Qual a",j,"ª nota da matéria de",materia[i], ": ")
+         escreval("Qual a",j,"Âª nota da matÃ©ria de",materia[i], ": ")
          leia(notas[i,j])
 
-         //Calculo para média ponderada, mais fim dos laços de repetição.
+         //Calculo para mÃ©dia ponderada, mais fim dos laÃ§os de repetiÃ§Ã£o.
          somaNota[i]<- somaNota[i] + (notas[i,j]*peso[j])
          somapesos<-somapesos + peso[j]
       fimpara
@@ -55,19 +55,19 @@ Inicio
    fimpara
    limpatela
 
-   //Laço de Repetição para a impressão final do 'nome' e 'matéria'.
+   //LaÃ§o de RepetiÃ§Ã£o para a impressÃ£o final do 'nome' e 'matÃ©ria'.
    para i de 1 ate 3 faca
       escreval("Nome:",nome[i])
-      escreval("Matéria:",materia[i])
+      escreval("MatÃ©ria:",materia[i])
       escreval(" ")
       
-      //Laço de Repetição para a impressão final da 'nota' e 'média'.
+      //LaÃ§o de RepetiÃ§Ã£o para a impressÃ£o final da 'nota' e 'mÃ©dia'.
       para j de 1 ate 3 faca
          escreval(j,"? nota da disciplina de ",materia[i],":",notas[i,j])
 
       fimpara
       escreval(" ")
-      escreval("Média:",media[i])
+      escreval("MÃ©dia:",media[i])
    fimpara
    escreval(" ")
    escreval("Obrigada por participar!")
